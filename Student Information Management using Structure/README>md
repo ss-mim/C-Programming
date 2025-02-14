@@ -1,0 +1,62 @@
+# Student Information using Structures in C
+
+This is a **C program** that demonstrates how to use **structures** to store and display student information.
+
+## How It Works
+- The program defines a structure `Student` with the following fields:
+  - `name` (string)
+  - `id` (integer)
+  - `cgpa` (floating point number)
+  - `course` (string)
+- Inside the `main()` function:
+  - An array `students[]` is declared and initialized with data for 5 students.
+  - A `for` loop iterates through the array and prints the details of each student.
+
+
+
+## Example Output
+```
+Student Details:
+-----------------------------------------
+Name: Raisha
+ID: 101
+CGPA: 3.85
+Course: Computer Science
+-----------------------------------------
+Name: Rokaiya
+ID: 102
+CGPA: 3.90
+Course: English Language and Literature
+-----------------------------------------
+Name: Hiya
+ID: 103
+CGPA: 3.75
+Course: Agriculture Economics
+-----------------------------------------
+Name: Hridi
+ID: 104
+CGPA: 3.80
+Course: Pharmacy
+-----------------------------------------
+Name: Sadia
+ID: 105
+CGPA: 3.95
+Course: Computer Science
+-----------------------------------------
+```
+
+## Features
+- Demonstrates how to **use structures** in C programming.
+- Uses an **array of structures** to store multiple student records.
+- Displays formatted student information.
+
+## Header Files Used
+- `<stdio.h>` for input/output functions (`printf`)
+- `<string.h>` (not used in this case but useful for string operations)
+
+## Notes
+- The program can be modified to take user input instead of hardcoded values.
+- Can be extended to include additional student attributes like address or phone number.
+
+## License
+This project is open-source and free to use.
